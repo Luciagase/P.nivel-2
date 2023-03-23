@@ -15,3 +15,13 @@ class Punto: #crear clase punto
             print("El punto se sitúa sobre el eje X")
         elif self.x==0 and self.y==0:
             print("El punto está sobre el origen")
+        elif self.x>0 and self.y>0:
+            print("El punto se sitúa en el primer cuadrante")
+        elif self.x>0 and self.y<0:
+            print("El punto se sitúa en el cuarto cuadrante")
+        elif self.x<0 and self.y>0:
+            print("El punto se sitúa en el segundo cuadrante")
+        elif self.x<0 and self.y<0:
+            print("El punto se sitúa en el tercer cuadrante")
+
+        
