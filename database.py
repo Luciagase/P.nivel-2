@@ -32,4 +32,9 @@ class Punto: #crear clase punto
         return Distancia
     
 
-class Rectangulo:
+class Rectangulo:#clase llamada Rectangulo con dos puntos (inicial y final) que formarán la diagonal del rectángulo.
+    def __init__(self, inicial=Punto(), final=Punto()):#método constructor para crear ambos puntos fácilmente
+        self.inicial=inicial
+        self.final=final
+
+    def 
