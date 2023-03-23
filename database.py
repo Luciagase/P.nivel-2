@@ -24,4 +24,12 @@ class Punto: #crear clase punto
         elif self.x<0 and self.y<0:
             print("El punto se sitúa en el tercer cuadrante")
 
-        
+    def vector(self, punto):#método llamado vector, que tome otro punto y calcule el vector resultante entre los dos puntos.
+        print("El vector resultante de {} y {} es ({}, {})".format(self, punto, punto.x-self.x, punto.y-self.y))
+    
+    def distancia(self, punto):#método llamado distancia, que tome otro punto y calcule la distancia entre los dos puntos y la muestre por pantalla
+        Distancia=math.sqrt((punto.x-self.x)**2 + (punto.y-self.y)**2)
+        return Distancia
+    
+
+class Rectangulo:
