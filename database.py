@@ -45,4 +45,6 @@ class Rectangulo:#clase llamada Rectangulo con dos puntos (inicial y final) que 
         self.altura=abs(self.final.y - self.inicial.y)
         print("La altura del rectángulo es {}".format(self.altura))
 
-    
+    def area(self):#método llamado area que muestre el area.
+        self.area=self.base*self.altura
+        print("El área del rectángulo es {} m^2".format(self.area))
