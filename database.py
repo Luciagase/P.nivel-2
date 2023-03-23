@@ -37,4 +37,8 @@ class Rectangulo:#clase llamada Rectangulo con dos puntos (inicial y final) que 
         self.inicial=inicial
         self.final=final
 
-    def 
+    def base(self):#método llamado base que muestre la base
+        self.base=abs(self.inicial.x - self.final.x)
+        print("La base del rectángulo es {}".format(self.base))
+
+    
